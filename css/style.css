@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 6px 8px -8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 8px;
+    z-index: 1; 
+
+}
+
+
+
+.button-container{
+    margin-right: 1%;
+    text-align: center;
+    align-items: center;
+
+}
+
+.logo-a{
+    float: left;
+    min-width: 120px;
+    max-height: 35px;
+    padding: 8px 20px; 
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.av-button {
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    margin: 8px; 
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    float: right; 
+
+}
+
+.av-button-a {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 1px solid rgb(0, 0, 0); 
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    margin: 8px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    float: right;
+}
+
+.av-button a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+}
+
+.av-button-a a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+}
+
+
+.av-button:active {
+    color:rgba(111, 173, 250, 0.417);
+    border-radius: 4px;
+}
+
+.av-button-a:active {
+    background-color: rgba(111, 173, 250, 0.417);; 
+    color: rgb(85, 134, 239); 
+}
+
+
+.one{
+    height: 61vh;
+    background-image: radial-gradient(circle at -20.71% 50%, #0080b7 0, #11608a 50%, #14425f 100%);
+    margin-top: 0;
+    padding-top: 270px;
+    transition: .3s;
+    color: rgb(255, 255, 255);
+}
+
+.two{
+    margin-top: -14.5%;
+    height: 60vh;
+    transition: .3s;
+    padding-bottom: 190px;
+    background-color: aliceblue;
+}
+
+.section-div{
+    margin-top: 200px;
+    padding-top: 5px;
+    
+}
+
+.three{
+    height: 60vh;
+    transition: .3s;
+    padding-top: 0;
+    padding-bottom: 790px;
+    background-color: rgb(95, 178, 223);
+}
+
+.text-h{
+    margin-left: 60px;
+    font-size: 50px;
+    margin-top: -40px;
+
+}
+
+.text-a{
+    font-size: 19px;
+    margin-left: 60px;
+    margin-top: -30px;
+
+}
+
+.text-i{
+    font-size: 42px; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    word-wrap: break-word; 
+    margin-left: 60px;
+    margin-top: 140px;
+    color: rgb(6, 91, 136);
+}
+
+.text-b {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+    font-weight: normal; 
+    letter-spacing: 1px;
+    margin-left: 60px;
+    text-align: left;
+    margin-top: -30px;
+}
+
+.btn{
+    border-radius: 40px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 60px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: bisque;
+    border: 12px;
+}
+
+.btn-a{
+    background-color: transparent;
+    border: 2px solid rgb(6, 91, 136); 
+    color: rgb(6, 91, 136);
+    margin-left: 60px;
+    padding: 10px 35px; 
+    font-weight: bold;
+    font-size: 20px; 
+    border-radius: 50px; 
+    transition: background-color 0.3s; 
+    cursor: pointer;
+}
+
+.btn-a:hover{
+    background-color: black; 
+    color: white; 
+    border: 2px solid rgb(0, 0, 0); 
+    transition: background-color 0.3s; 
+
+}
+
+.container-b{
+    margin-top: 62%;
+    text-align: center;
+    align-items: center;
+}
+
+.p-container{
+    color: aliceblue;
+    font-size: 24px;
+    margin-bottom: 0;    
+}
+
+.btn-ab{
+    background-color:  rgb(6, 91, 136);
+    color: #ffffff;
+    padding: 10px 90px; 
+    margin: 12px;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px; 
+    border-radius: 50px; 
+    transition: background-color 0.3s; 
+    cursor: pointer;
+}
+
+
+.btn-ab:hover{
+    background-color: black; 
+    color: white; 
+    transition: background-color 0.3s; 
+
+}
+.btn-ac{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0;
+    padding: 10px 90px; 
+    margin: 12px;
+    font-weight: bold;
+    font-size: 20px; 
+    border-radius: 50px; 
+    transition: background-color 0.3s; 
+    cursor: pointer;
+}
+
+
+.btn-ac:hover{
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
+    transition: background-color 0.3s; 
+
+}
+
+.img-a{
+    height: 150%;
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -25%;
+}
+
+.img-b{
+    width: 100%;
+    height: 100%;
+}
+
+.cma{
+    width: 600px;
+    height: 500px;
+    margin-left:50%;
+    margin-top: -315px;
+    
+}
+
+#cma-a{
+    width: 100%;
+    height: 100%;
+
+}
+
+.four{
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 360px;
+    background-image: url(https://img.freepik.com/vetores-premium/cartaz-abstrato-azul-com-curva-de-onda-dinamica-fundo-de-apresentacao-de-negocios-azul-e-branco-com-conceito-de-rede-de-tecnologia-moderna-ilustracao-vetorial_181182-19571.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.video-a{
+    cursor: pointer;
+    height: 40%;
+    width: 40%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.video-container{
+    padding: 0;
+    margin-top: 0;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.video-text{
+    font-size: 35px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+.video-text-two{
+    font-size: 16px;
+    margin-left: 50%;
+    margin-top: -2%;
+
+}
+
+.five{
+    width: 100%;
+    padding-bottom: 150px;
+    background-color: blanchedalmond;
+
+}
+
+
+
+
+.six{
+    padding-bottom: 10%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgb(0,0,0)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw1hY9zOnc__Oj9SmjbzDDO2lAiffWesK0FXfgFARKFrc4SAK8UrIlkyzs4D3SAnvYDjI&usqp=CAU);
+    background-size: cover;
+    margin-top: -2.5%;
+
+}
+.img-text{
+    text-align: center;
+    align-items: center;
+}
+.a-text{
+    color: white;
+    word-wrap: break-word; 
+    font-size: 25px;
+    padding-top: 10%;
+}
+
+.footer{
+    background-color:#dbc6ffa8;;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.footer p{
+    margin-bottom: 5px;
+    
+}
+.footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.footer-div-1, .footer-div-2, .footer-div-3, .footer-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.footer-div-1-coluna{
+    padding-left: 40px;
+}
+.footer span{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-direitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+

@@ -1,0 +1,131 @@
+.planos-a{
+    background-color: rgb(236, 244, 251);
+    padding-bottom: 650px;
+}
+.container-pln{
+    padding-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.pln-block-a{
+    position: absolute;
+
+    border: 1px solid black transparent;
+    background-color: white;
+    height: 440px;
+    width: 290px;
+
+    margin-left: 10%;
+ 
+}
+
+.p-pln{
+    font-size: 14px;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 4%;
+}
+
+.dark-pln{
+    font-size: 45px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.dark-p{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.pln-a{
+    background-color: black; 
+    color: white;
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 15px;
+    margin-top: 60%;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.pln-block-b{
+    position: absolute;
+
+    border: 1px solid black transparent;
+    background-color: white;
+    
+    height: 440px;
+    width: 290px;
+
+    margin-left: 40%;
+}
+
+.pln-b{
+    background-color: black; 
+    color: white;
+
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 15px;
+    margin-top: 50%;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.dark-pln{
+    font-size: 35px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.pla{
+    font-size: 23px;
+    color: darkblue;
+}
+
+.pln-block-c{
+    position: absolute;
+    border: 1px solid black transparent;
+    background-color: white;
+    ;
+    height: 440px;
+    width: 290px;
+
+    margin-left: 70%;
+}
+
+.pln-c{
+    background-color: black; 
+    color: white;
+
+    border-radius: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 15px;
+    margin-top: 50%;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.p-pln-a{
+    font-size: 14px;
+    font-weight: bolder;
+    color: darkblue;
+    margin-top: 4%;
+}

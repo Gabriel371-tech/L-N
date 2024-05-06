@@ -1,0 +1,225 @@
+.bloco-a {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 15%;
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+    z-index: 0;
+
+}
+  
+.bloco-a:hover {
+    width: 305px;
+    height: 385px;
+    background-color: #fff;
+}
+  
+.conteudo-a {
+    display: block;
+    transition: all 0.3s;
+}
+  
+.bloco-a:hover .conteudo-a {
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+}
+
+.bloco-b {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 39%;
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+}
+  
+.bloco-b:hover {
+    width: 305px;
+    height: 385px;
+    background-color: #fff;
+    z-index: 0; 
+
+}
+  
+.conteudo-b {
+    display: block;
+    transition: all 0.3s;
+}
+  
+.bloco-b:hover .conteudo-b {
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+}
+
+.bloco-c {
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 63%;
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+    z-index: 0; 
+}
+  
+.bloco-c:hover {
+    width: 305px;
+    height: 385px;
+    background-color: #fff;
+}
+  
+.conteudo-c {
+    display: block;
+    transition: all 0.3s;
+}
+  
+.bloco-c:hover .conteudo-c {
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+}
+
+.bloco-d {
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 15%;
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+    z-index: 0; 
+
+}
+  
+.bloco-d:hover {
+    width: 305px;
+    height: 385px;
+    background-color: #fff;
+}
+  
+.conteudo-d {
+    display: block;
+    transition: all 0.3s;
+}
+  
+.bloco-d:hover .conteudo-d {
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+}
+
+.bloco-e{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 39%;
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+}
+  
+.bloco-e:hover {
+    width: 305px;
+    height: 385px;
+    background-color: #fff;
+    z-index: 0; /* Define uma posição de z-index maior */
+
+}
+  
+.conteudo-e {
+    display: block;
+    transition: all 0.3s;
+}
+  
+.bloco-e:hover .conteudo-e {
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+}
+
+  
+
+.bloco-f{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 63%;
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+    z-index: 0; 
+
+}
+  
+.bloco-f:hover {
+    width: 305px;
+    height: 385px;
+    background-color: #fff;
+}
+  
+.conteudo-f {
+    display: block;
+    transition: all 0.3s;
+}
+  
+.bloco-f:hover .conteudo-f{
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+}
+
+.container {
+    position: relative; 
+    margin-top: -2%;
+}
+
+.bloco-text{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 75px;
+    color: #fff;
+}
+
+.iii-a{
+    font-weight: bold;
+}
+  
+.iii-b{
+    margin-top: 12%;
+    height: 20%;
+    width: 20%;
+}
+
+.text-ex{
+    margin-top:10%;
+    color: black;
+    font-size: 13.8px;
+    letter-spacing: 1.5px; 
+    opacity: 0.8; 
+}
+
+.text-exe{
+    margin-top:8%;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(6, 91, 136);
+
+}
+
